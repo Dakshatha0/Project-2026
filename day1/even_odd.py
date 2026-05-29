@@ -1,6 +1,10 @@
-num = int(input())
+try:
+    num = int(input())
 
-if num % 2 ==0:
-    print("Even")
-else:
-    print("Odd")
+    if num % 2 ==0:
+        print("Even")
+    else:
+        print("Odd")
+
+except ValueError:
+    print("Invalid input")

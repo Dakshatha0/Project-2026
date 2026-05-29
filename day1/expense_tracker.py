@@ -1,5 +1,6 @@
-exp1 = float(input())
-exp2 = float(input())
-exp3 = float(input())
+exp = []
 
-print('Total expenses: ', exp1 + exp2 + exp3)
+for i in range(3):
+    exp.append(float(input()))
+
+print('Total expenses: ', sum(exp))
