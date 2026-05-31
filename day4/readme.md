@@ -1,0 +1,1 @@
+Allows users to quickly retrieve GitHub profile information using GitHub's public API.
