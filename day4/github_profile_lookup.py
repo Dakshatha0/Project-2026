@@ -7,7 +7,7 @@ def get_user():
     print(user_details)
     try:
         response = requests.get(user_details)
-    except response.exceptions.RequestException:
+    except requests.exceptions.RequestException:
         print("Cannot connect to Github")
 
     if response.status_code == 200:
