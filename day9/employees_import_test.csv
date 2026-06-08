@@ -1,0 +1,8 @@
+employee_id,name,department
+101,Daksh,Engineering
+102,Jay,HR
+103,,Finance
+104,Chandana,Engineering
+105,Atoshi,
+106,Sri,Sales
+101,Duplicate Daksh,Engineering
